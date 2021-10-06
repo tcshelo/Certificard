@@ -27,5 +27,5 @@ Os temas foram:
 
 
 
-Para ter acesso aos projetos já prontos e com os desafios inclusos, basta clicar <a href="https://tcshelo.github.io/Certificard/">aqui</a> :happy:
+Para ter acesso aos projetos já prontos e com os desafios inclusos, basta clicar <a href="https://tcshelo.github.io/Certificard/">aqui</a> 🤓 
 
