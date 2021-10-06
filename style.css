@@ -41,10 +41,46 @@ body {
 .titulo h3 {
 	font-weight: 400;
 	font-size: 24px;
+	line-height: 10px;
+}
+
+.titulo h4 {
+	display: inline-flex;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 5px;
+	color: #3468a7;
+	padding-left: 5px;
+	padding-right: 20px;
+}
+
+.titulo h4 a {
+	text-decoration: none;
+	color: #3468a7;
+}
+
+.icone-linkedin {
+	max-height: 24px;
+	vertical-align: text-bottom;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+}
+
+.icone-github {
+	max-height: 25px;
+	vertical-align: text-bottom;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 20px;
+}
+
+.icone-email {
+	max-height: 26px;
+	vertical-align: text-bottom;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 13px;
 }
 
 .tema button {
-	/* pra deixar alinhado ao final do flex box	 */
 	align-self: flex-end;
 	/*  vertical - horizontal       	 */
 	padding: 8px 16px;
@@ -65,12 +101,13 @@ body {
 }
 
 .projetos-titulo {
+	text-align: center;
+	text-decoration: underline;
 	list-style: none;
 	font-weight: 700;
 	font-size: 36px;
 }
 
-/*se quissese estilizar cada li de uma forma eu botaria uma class dentro de cada li, podendo elas serem iguais ou não */
 .projetos li {
 	list-style-type: none;
 	font-weight: 400;
@@ -78,7 +115,7 @@ body {
 	line-height: 48px;
 }
 
-/* estilizacao da ancora; tirando a linha debaixo dos links */
+
 .projetos li a {
 	color: #1c1c1c;
 	text-decoration: none;
@@ -102,3 +139,11 @@ body {
 	color: #ffffff;
 	border: 2px solid #f7f7f7;
 }
+
+.dark .titulo h4 {
+	color: #ffffff;
+}
+
+.dark .titulo h4 a {
+	text-decoration: none;
+	color: #ffffff;
